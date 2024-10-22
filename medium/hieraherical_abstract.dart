@@ -12,7 +12,7 @@ abstract class Mammal extends Animal {
 }
 
 // Concrete subclass implementing the abstract methods
-class Lion extends Mammal {
+class Lion extends Mammal {  // abstract class can't be initiated .Try creating an instance of a concrete subtype.
   @override
   void sleep() {
     print('Lion is sleeping');
